@@ -18,9 +18,9 @@ Metadados têm um papel importante no mundo digital: eles armazenam informaçõe
 
 ---
 
-# Requirements
+# Requisitos
 
-Make sure you have **Python 3** and **PyPDF2** installed.
+Certifique-se que o **Python 3** e **PyPDF2** estão instalados.
 
 ```bash
 pip install PyPDF2
@@ -48,3 +48,4 @@ Por isso, é uma boa prática revisar e, ocasionalmente, remover os metadados es
 <p align="left">
   <img src="../images/pingu2.jpeg" alt="PDF PINGU" width="500">
 </p>
+
