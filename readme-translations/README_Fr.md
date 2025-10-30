@@ -1,25 +1,25 @@
-# BUSCANDO Y ELIMINANDO METADATOS DE PDF
+# RECHERCHE ET SUPPRESSION DES MÉTADONNÉES PDF
 
 <p align="left">
   <img src="../images/pingu.jpeg" alt="PDF PINGU" width="500">
 </p>
 
-Los metadatos tienen un papel importante en el mundo digital: almacenan información oculta, como el nombre del autor del documento, la fecha de creación, el software utilizado e incluso, a veces, el historial del archivo.
+Les métadonnées jouent un rôle important dans le monde numérique : elles stockent des informations cachées, comme le nom de l’auteur du document, la date de création, le logiciel utilisé et parfois même l’historique du fichier.
 
 ---
 
-**Un sencillo script en Python que lee y muestra los metadatos de un PDF (autor, título, asunto, etc.) y guarda la salida en un archivo `.txt`.**
+**Un simple script Python qui lit et affiche les métadonnées d’un fichier PDF (auteur, titre, sujet, etc.) et enregistre la sortie dans un fichier `.txt`.**
 
-# ¿Cómo funciona?
+# Comment ça marche?
 
-* [`metadata.py`](metadata.py) — Lee el contenido de los metadatos, como el autor, el título y otros campos.
-* [`nometadata.py`](nometadata.py) — Verifica si el PDF contiene metadatos y, en caso afirmativo, los elimina.
+* [`metadata.py`](metadata.py) Lit le contenu des métadonnées, comme l’auteur, le titre et d’autres champs.
+* [`nometadata.py`](nometadata.py) Vérifie si le PDF contient des métadonnées et, le cas échéant, les supprime.
 
 ---
 
-# Requisitos
+# Exigences
 
-Asegúrate de tener **Python 3** y **PyPDF2** instalados.
+Assurez-vous d’avoir **Python 3** et **PyPDF2** installés.
 
 ```bash
 pip install PyPDF2
@@ -27,11 +27,10 @@ pip install PyPDF2
 
 ---
 
+# Comment utiliser
 
-# Cómo usar
-
-1. Coloca tu archivo PDF en cualquier lugar de tu sistema.
-2. Actualiza la ruta del archivo en el código:
+1. Placez votre fichier PDF n’importe où sur votre système.
+1. Mettez à jour le chemin du fichier dans le code.
 
 ```python
 show_metadata("/path/to/your/file.pdf")
@@ -39,12 +38,11 @@ show_metadata("/path/to/your/file.pdf")
 
 ---
 
-# ¡Espero que te guste!
+# J'espère que cela vous plaira!
 
-Aunque los metadatos pueden ser útiles para la gestión y autenticación de documentos, también pueden exponer inadvertidamente información personal o sensible.
+Bien que les métadonnées puissent être utiles pour la gestion et l’authentification des documents, elles peuvent aussi révéler involontairement des informations personnelles ou sensibles.
 
-Por eso, es una buena práctica revisar y, de vez en cuando, eliminar los metadatos especialmente antes de compartir archivos PDF públicamente o enviarlos a destinatarios desconocidos.
+C’est pourquoi il est conseillé de vérifier et de supprimer de temps en temps les métadonnées, surtout avant de partager des fichiers PDF publiquement ou de les envoyer à des destinataires inconnus.
 
-<p align="left">
-  <img src="../images/pingu2.jpeg" alt="PDF PINGU" width="500">
-</p>
+![PDF PINGU](../images/pingu2.jpeg)
+
