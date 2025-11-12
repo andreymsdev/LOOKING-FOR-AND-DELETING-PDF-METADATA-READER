@@ -42,6 +42,6 @@ class DualOutput:
 sys.stdout = DualOutput("output.txt")
 
 # Run the function
-show_metadata("/home/andrey/Downloads/1761572574145.pdf")
+show_metadata("/home/desktop/pdf")
 
 print("\nSaved to the file!")
