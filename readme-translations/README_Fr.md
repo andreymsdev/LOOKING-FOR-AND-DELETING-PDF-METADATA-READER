@@ -1,8 +1,6 @@
 # RECHERCHE ET SUPPRESSION DES MÉTADONNÉES PDF
 
-<p align="left">
-  <img src="../images/pingu.jpeg" alt="PDF PINGU" width="500">
-</p>
+--- 
 
 Les métadonnées jouent un rôle important dans le monde numérique : elles stockent des informations cachées, comme le nom de l’auteur du document, la date de création, le logiciel utilisé et parfois même l’historique du fichier.
 
@@ -45,4 +43,5 @@ Bien que les métadonnées puissent être utiles pour la gestion et l’authenti
 C’est pourquoi il est conseillé de vérifier et de supprimer de temps en temps les métadonnées, surtout avant de partager des fichiers PDF publiquement ou de les envoyer à des destinataires inconnus.
 
 ![PDF PINGU](../images/pingu2.jpeg)
+
 
