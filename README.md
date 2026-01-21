@@ -1,8 +1,5 @@
 # LOOKING FOR AND DELETING PDF METADATA READER
-
-<p align="left">
-  <img src="images/pingu.jpeg" alt="PDF PINGU" width="500">
-</p>
+--- 
 
 Metadata plays an important role in digital documents it stores hidden information such as the author’s name, creation date, software used, and sometimes even file history.
 
