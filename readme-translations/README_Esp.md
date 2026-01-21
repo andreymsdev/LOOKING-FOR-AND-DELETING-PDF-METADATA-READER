@@ -1,8 +1,6 @@
 # BUSCANDO Y ELIMINANDO METADATOS DE PDF
 
-<p align="left">
-  <img src="../images/pingu.jpeg" alt="PDF PINGU" width="500">
-</p>
+---
 
 Los metadatos tienen un papel importante en el mundo digital: almacenan información oculta, como el nombre del autor del documento, la fecha de creación, el software utilizado e incluso, a veces, el historial del archivo.
 
@@ -48,3 +46,4 @@ Por eso, es una buena práctica revisar y, de vez en cuando, eliminar los metada
 <p align="left">
   <img src="../images/pingu2.jpeg" alt="PDF PINGU" width="500">
 </p>
+
